@@ -1,0 +1,10 @@
+uuid: 17fc0353-8c31-4293-96c6-a6c76a67e254
+langcode: en
+status: true
+dependencies:
+  module:
+    - config_pages
+id: config_pages.token
+label: Token
+targetEntityType: config_pages
+cache: true

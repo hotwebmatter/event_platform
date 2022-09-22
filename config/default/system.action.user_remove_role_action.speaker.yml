@@ -1,0 +1,16 @@
+uuid: 89db6796-fb01-484d-bc49-0b598267d622
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.speaker
+  module:
+    - user
+_core:
+  default_config_hash: y5FSkFLZBbEDVGzX8zQZmSK-gRkBWee9eNQ0L0JDvzs
+id: user_remove_role_action.speaker
+label: 'Remove the Speaker role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: speaker
